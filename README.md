@@ -31,7 +31,7 @@ This lab is an instructional introduction to terminal. There are no unit tests.
 
 ## Pre-lab && Important Notes
 
-It's a good practice to have a directory called `Dev` inside your home directory for all development work. You can create one in Finder (right click -> New Folder) or in the terminal (`mkdir ~/Dev`). This directory will come in handy in case things go horribly wrong, or if you want to back up all of your work. You should always make sure you are working in Dev or a directory inside of it during this course.
+It's a good practice to have a directory called `Projects` inside your home directory for all development work. You can create one in Finder (right click -> New Folder) or in the terminal (`mkdir ~/Projects`). This directory will come in handy in case things go horribly wrong, or if you want to back up all of your work. You should always make sure you are working in `Projects` or a directory inside of it during this course.
 
 ## Instructions
 
@@ -39,7 +39,7 @@ It's a good practice to have a directory called `Dev` inside your home directory
 - Find out what directory you're in using `pwd`
 - You know where you are, but not what's around you. Take a look around with `ls`
 - You probably started in your home directory, but just in case, tell the terminal to move to your home directory with `cd ~`. Use `pwd` again to confirm.
-- Change into your Dev directory with `cd Dev`. If you don't have one you should create one (see above)
+- Change into your Projects directory with `cd Projects`. If you don't have one you should create one (see above)
 -  Now let's try printing the contents of a file. First we need to create the file. One quick way to do that is with the command `echo "Hello Terminal" >myFile.txt`. We'll explain this command in greater detail in the next lab.
 -  Use `ls` to list the contents of your directory after running that command to see what changed.
 -  Now show the contents of that new file using the `cat` command.
